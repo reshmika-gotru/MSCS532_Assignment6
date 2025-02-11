@@ -47,7 +47,4 @@ print(matrix.access(1, 1))  # Output: 20 (Access the element at (1, 1))
 
 matrix.delete(1, 1)        # Delete the element at (1, 1)
 matrix.display()
-# Output:
-# [10, 0, 0]
-# [0, 0, 0]
-# [0, 0, 30]
+
