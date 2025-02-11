@@ -30,12 +30,12 @@ class Array:
 
 
 arr = Array()
-arr.insert(10)        # Insert 10 at the end
-arr.insert(20)        # Insert 20 at the end
-arr.insert(15, 1)     # Insert 15 at index 1
-arr.display()         # Output: [10, 15, 20]
+arr.insert(500)         # Insert 500 at the end
+arr.insert(2000)        # Insert 2000 at the end
+arr.insert(1500, 1)      # Insert 1500 at index 1
+arr.display()           # Output: [500, 1500, 2000]
 
-print(arr.access(1))  # Output: 15 (Access the element at index 1)
+print(arr.access(1))  # Output: 1500 (Access the element at index 1)
 arr.delete(1)         # Delete the element at index 1
-arr.display()         # Output: [10, 20]
+arr.display()         # Output: [500, 2000]
 print(arr.access(1))  # Output: None (Index out of range)
