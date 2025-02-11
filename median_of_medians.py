@@ -36,6 +36,6 @@ def deterministic_select(arr, k):
         return deterministic_select(right, k - len(left) - 1)
 
 # Example usage:
-arr = [100, 65, 82, 18, 59, 70, 10, 875, 1000]
+arr = [100888, -65000, 8002, 185, 0.00059, 799990, 10, 875, 1000]
 k = 4  # Find the 4th smallest element (index 3 in sorted array)
 print(f"The 4th smallest element is: {deterministic_select(arr, k)}")
