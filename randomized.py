@@ -24,6 +24,6 @@ def randomized_quickselect(arr, k):
         return randomized_quickselect(right, k - len(left) - 1)
 
 # Example usage:
-arr = [100, 65, 82, 18, 59, 70, 10, 875, 1000]
+arr = [-100, 65, -82, 1.00008, -0.59, 7.095, 10, 875, 1000]
 k = 3  # Find the 3rd smallest element (index 2 in sorted array)
 print(f"The 3rd smallest element is: {randomized_quickselect(arr, k)}")
